@@ -27,9 +27,10 @@ const NavBar = () => {
             <Tabs sx={{marginLeft:'auto'}}>
              <Tab label="Report" sx={{fontFamily:'VT323, monospace', fontSize:"30px",color:"inherit"}}/>
             </Tabs>
-            <button type="button" className="button block" onClick={() => supabase.auth.signOut()}>
+            <Button sx={{fontFamily:'VT323, monospace', fontSize:"30px",marginRight:"40px",color:"inherit"}}
+            variant="text" className="button block" onClick={() => supabase.auth.signOut()}>
         Sign Out
-      </button>
+      </Button>
         </Toolbar>
         </AppBar>      
         </React.Fragment>
