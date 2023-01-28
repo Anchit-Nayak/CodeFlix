@@ -25,7 +25,7 @@ function App() {
   }, [])
 
   return (
-    <Container>
+    <div>
       {!session? <Login></Login>:<div className="App">
       <NavBar/>
       <InventoryCard
@@ -50,8 +50,11 @@ function App() {
 
       />
     </div>}
+    <div className='Footer'>
+       
+    </div>
     
-    </Container>
+    </div>
   );
 }
 

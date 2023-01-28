@@ -1,16 +1,5 @@
-font-class{
-  font-family: Catamaran ;
-}
-body {
-  box-sizing: border-box;
-  margin: 0;
-  font-family:Catamaran, monospace;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&family=VT323&display=swap');
