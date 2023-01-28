@@ -1,0 +1,28 @@
+.card-container{ 
+    width: 95%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 25px;
+    padding: 4%;
+    background-color: #F55050;
+    fill-opacity: 0.5;
+    text-align: center;
+    margin-top: 100px;
+    text-align: left;
+    border:solid #b70404 2px;
+  
+}
+
+
+.image-container img{
+  overflow: hidden;
+  height: 250px;
+  width: 300px;
+  border-radius: 10%;
+  float: right;
+  
+}
+
+h1{
+    font-size:50px;
+}

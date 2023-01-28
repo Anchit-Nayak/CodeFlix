@@ -29,7 +29,7 @@ const NavBar = () => {
             </Tabs>
             <Button sx={{fontFamily:'VT323, monospace', fontSize:"30px",marginRight:"40px",color:"inherit"}}
             variant="text" className="button block" onClick={() => supabase.auth.signOut()}>
-        Sign Out
+        SignOut
       </Button>
         </Toolbar>
         </AppBar>      
