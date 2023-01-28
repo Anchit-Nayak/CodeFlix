@@ -50,6 +50,9 @@ function App() {
 
       />
     </div>}
+    <div className='Footer'>
+       
+    </div>
     
     </Container>
   );
