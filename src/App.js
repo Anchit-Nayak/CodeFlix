@@ -25,8 +25,10 @@ function App() {
   }, [])
 
   return (
+    
     <div>
       {!session? <Login></Login>:<div className="App">
+      <Container>
       <NavBar/>
       <InventoryCard
         name="Super Mushroom"
@@ -49,12 +51,14 @@ function App() {
         quantity=""
 
       />
+      </Container>
     </div>}
     <div className='Footer'>
        
     </div>
     
     </div>
+    
   );
 }
 
