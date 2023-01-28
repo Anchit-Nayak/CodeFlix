@@ -5,6 +5,7 @@ import { supabase } from "../pages/supabaseClient";
 import Login from "../pages/login";
 import Account from "../pages/account";
 import { AppBar, Button, Tab, Tabs, Toolbar, Typography } from "@mui/material";
+import Dropdown from "./dropdown";
 
 const NavBar = () => {
     const [session, setSession] = useState(null)
@@ -27,10 +28,7 @@ const NavBar = () => {
             <Tabs sx={{marginLeft:'auto'}}>
              <Tab label="Report" sx={{fontFamily:'VT323, monospace', fontSize:"30px",color:"inherit"}}/>
             </Tabs>
-            <Button sx={{fontFamily:'VT323, monospace', fontSize:"30px",marginRight:"40px",color:"inherit"}}
-            variant="text" className="button block" onClick={() => supabase.auth.signOut()}>
-        SignOut
-      </Button>
+            <Dropdown></Dropdown>
         </Toolbar>
         </AppBar>      
         </React.Fragment>

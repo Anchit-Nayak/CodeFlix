@@ -24,8 +24,10 @@ function App() {
     })
   }, [])
 
+  console.log(session);
+
   return (
-    <div>
+    <div onClick={()=>{console.log(session.user.id);}}>
       {!session? <Login></Login>:<div className="App">
       <NavBar/>
       <InventoryCard

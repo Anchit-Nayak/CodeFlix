@@ -1,7 +1,20 @@
 import { useState, useEffect } from 'react'
 import { supabase } from './supabaseClient'
 
-const Account = ({ session }) => {
+const Account = () => {
+  const [session, setSession] = useState(null)
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session)
+    })
+
+    supabase.auth.onAuthStateChange((_event, session) => {
+      setSession(session)
+    })
+  }, [])
+
+  console.log(session);
   const [loading, setLoading] = useState(true)
   const [username, setUsername] = useState(null)
   const [avatar_url, setAvatarUrl] = useState(null)
@@ -14,11 +27,12 @@ const Account = ({ session }) => {
     try {
       setLoading(true)
       const { user } = session
+      console.log("user idddd is "+user.user.id);
 
       let { data, error, status } = await supabase
         .from('profiles')
         .select(`username, avatar_url`)
-        .eq('id', user.id)
+        .eq('id', user.user.id)
         .single()
 
       if (error && status !== 406) {
