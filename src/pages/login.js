@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { supabase } from './supabaseClient'
+import "./login.css"
 
 export default function Login() {
   const [loading, setLoading] = useState(false)
@@ -21,9 +22,12 @@ export default function Login() {
   }
 
   return (
-    <div className="row flex-center flex">
+    <div className='login-font'>
+
+   
+    <div className="">
       <div className="col-6 form-widget" aria-live="polite">
-        <h1 className="header">Supabase + React</h1>
+        <h3 className="header">Mario's Enterprise</h3>
         <p className="description">Sign in via magic link with your email below</p>
         {loading ? (
           'Sending magic link...'
@@ -44,6 +48,7 @@ export default function Login() {
           </form>
         )}
       </div>
+    </div>
     </div>
   )
 }
