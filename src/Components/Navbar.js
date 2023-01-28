@@ -1,7 +1,24 @@
 import React from "react";
+import {Link} from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { supabase } from "../pages/supabaseClient"; 
+import Login from "../pages/login";
+import Account from "../pages/account";
 import { AppBar, Button, Tab, Tabs, Toolbar, Typography } from "@mui/material";
 
 const NavBar = () => {
+    const [session, setSession] = useState(null)
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session)
+    })
+
+    supabase.auth.onAuthStateChange((_event, session) => {
+      setSession(session)
+    })
+  }, [])
+
     return (
         <React.Fragment>
         <AppBar sx={{backgroundColor:"#bd0808"}}>
@@ -10,7 +27,9 @@ const NavBar = () => {
             <Tabs sx={{marginLeft:'auto'}}>
              <Tab label="Report" sx={{fontFamily:'VT323, monospace', fontSize:"30px",color:"inherit"}}/>
             </Tabs>
-            <Button variant="text" sx={{fontFamily:'VT323, monospace', fontSize:"30px",marginLeft:"20px", marginRight:"40px",color:"inherit"}}>SignOut</Button>
+            <button type="button" className="button block" onClick={() => supabase.auth.signOut()}>
+        Sign Out
+      </button>
         </Toolbar>
         </AppBar>      
         </React.Fragment>
