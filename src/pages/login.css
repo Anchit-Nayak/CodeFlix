@@ -1,0 +1,31 @@
+body{
+    
+    background-image: url(https://media1.giphy.com/media/PTFRmGOgiPUS4/giphy.gif?cid=ecf05e47ozmdxno4v0t7zwpa4109g16vtuq0i317kisw4oxs&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.login-font{
+    margin-top: 15%;
+    background:linear-gradient(to bottom, #f1f4f9,#dff1ff);
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'VT323', monospace;
+    font-weight: 500;
+    font-size: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    opacity: 0.5;
+    padding: 10px;
+}
+
+.button-block{
+    padding: 10px;
+    font-size: 3000px;
+}
+
+
+
