@@ -27,6 +27,7 @@ function App() {
     <Container>
       {!session? <Login></Login>:<div className="App">
       <NavBar/>
+     
     </div>}
     
     </Container>
