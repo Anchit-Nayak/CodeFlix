@@ -51,14 +51,14 @@ function App() {
       />
       <InventoryCard
         name="Poison Mushroom"
-        imageURL="https://th.bing.com/th/id/OIP.aKnIdang1DgP7CtOC0KO3AAAAA?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        imageURL="https://th.bing.com/th?id=OIP.0o0RK0F0Q5ZLWUE5AEZZ3AHaHW&w=110&h=110&c=7&rs=1&qlt=80&pcl=f9f9f9&o=6&cdv=1&dpr=1.3&pid=18.2"
         description="Reduce 1 Power-up"
         quantity=""
 
       />
       <InventoryCard
         name="Mini Mushroom"
-        imageURL="https://th.bing.com/th/id/OIP.Wn_UwUbWhwZK70covCZQbAAAAA?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        imageURL="https://th.bing.com/th/id/OIP.H2CaTyl4MkRsWYLO0OQzYwHaHt?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         description="Increased Agility, Go through Mini Warp Pipes"
         quantity=""
 
@@ -72,14 +72,14 @@ function App() {
       />
       <InventoryCard
         name="Boo Mushroom"
-        imageURL="https://th.bing.com/th/id/OIP.CEf0rlRF9gpvdQDBh1F5gAHaIQ?w=147&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        imageURL="https://th.bing.com/th/id/OIP.6-bQ9U25eEHLU5K1qKGFLgHaCw?w=266&h=130&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         description="Float, Go through certain walls, Invisible, Lost when in light"
         quantity=""
 
       />
       <InventoryCard
         name="Spring Mushroom"
-        imageURL="https://th.bing.com/th/id/OIP.kBGlXQS1gL5Abna5GrsYkgAAAA?w=162&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        imageURL="https://th.bing.com/th/id/OIP.kBGlXQS1gL5Abna5GrsYkgAAAA?w=162&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7https://th.bing.com/th/id/OIP.kBGlXQS1gL5Abna5GrsYkgAAAA?w=162&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         description="Bounce with each step, Jump Higher, Easier to Wall Jump"
         quantity=""
 
@@ -98,13 +98,7 @@ function App() {
         quantity="Rolls over enemies, Knocks down heavy objects"
 
       />
-      <InventoryCard
-        name="Title"
-        imageURL="https://media.istockphoto.com/id/860528756/photo/the-bandraworli-sea-link-mumbai-india.jpg?s=612x612&w=0&k=20&c=xT9TK7oYkP6TP62lHqP0H-9mfz9cWva4OcYEnt06cjc="
-        description="Hello"
-        quantity=""
-
-      />
+      
     </div>}
     <div className='Footer'>
        
