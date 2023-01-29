@@ -53,28 +53,28 @@ function App() {
       />
       <InventoryCard
         name="Poison Mushroom"
-        imageURL="https://th.bing.com/th/id/OIP.aKnIdang1DgP7CtOC0KO3AAAAA?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        imageURL="https://static.miraheze.org/atrociousgameplaywiki/thumb/d/d0/Poison_Mushroom_-_Mario_Kart_Wii.png/450px-Poison_Mushroom_-_Mario_Kart_Wii.png"
         description="Reduce 1 Power-up"
         quantity=""
 
       />
       <InventoryCard
         name="Mini Mushroom"
-        imageURL="https://th.bing.com/th/id/OIP.Wn_UwUbWhwZK70covCZQbAAAAA?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        imageURL="https://www.clipartmax.com/png/middle/76-761971_mini-mushroom-super-mario-bros-mini-mushroom.png"
         description="Increased Agility, Go through Mini Warp Pipes"
         quantity=""
 
       />
       <InventoryCard
         name="Bee Mushroom"
-        imageURL="https://th.bing.com/th/id/OIP.7AKuczGpTobBJJktH2j6pAAAAA?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        imageURL="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed991cf4-7c8c-4530-b6ba-a3abf3ab2eae/dechii8-41973a65-a9b1-4d66-b0de-fe47b783e4fc.png/v1/fill/w_400,h_400,strp/super_mario__bee_mushroom_2d_by_joshuat1306_dechii8-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDAwIiwicGF0aCI6IlwvZlwvZWQ5OTFjZjQtN2M4Yy00NTMwLWI2YmEtYTNhYmYzYWIyZWFlXC9kZWNoaWk4LTQxOTczYTY1LWE5YjEtNGQ2Ni1iMGRlLWZlNDdiNzgzZTRmYy5wbmciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.OkvGcqqErYrri-ueA5Mp_nfrlOgmnezzc5eC0-EqQ7c"
         description="Flight (limited), Disappears in water"
         quantity=""
 
       />
       <InventoryCard
         name="Boo Mushroom"
-        imageURL="https://th.bing.com/th/id/OIP.CEf0rlRF9gpvdQDBh1F5gAHaIQ?w=147&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        imageURL="https://i.pinimg.com/originals/a8/ee/57/a8ee57940c4ad6ed880687768931fc31.png"
         description="Float, Go through certain walls, Invisible, Lost when in light"
         quantity=""
 
@@ -98,13 +98,6 @@ function App() {
         imageURL="https://th.bing.com/th/id/OIP.O6t0YR9zukxKfnoJQ30dswAAAA?w=110&h=110&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         description=""
         quantity="Rolls over enemies, Knocks down heavy objects"
-
-      />
-      <InventoryCard
-        name="Title"
-        imageURL="https://media.istockphoto.com/id/860528756/photo/the-bandraworli-sea-link-mumbai-india.jpg?s=612x612&w=0&k=20&c=xT9TK7oYkP6TP62lHqP0H-9mfz9cWva4OcYEnt06cjc="
-        description="Hello"
-        quantity=""
 
       />
       </Container>
